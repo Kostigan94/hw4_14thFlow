@@ -23,5 +23,4 @@ public class ComparingPlans {
         $(".HeaderMenu").$(byText("Compare plans")).click();
         $(".h2-mktg").shouldHave(text("Choose the plan that’s right for you."));
     }
-
 }
